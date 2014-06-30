@@ -1,0 +1,70 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-06-27 03:23+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/PostsController.php:11;16;34;39
+msgid "Invalid post"
+msgstr ""
+
+#: Controller/PostsController.php:25
+msgid "Your post has been saved."
+msgstr ""
+
+#: Controller/PostsController.php:28
+msgid "Unable to add your post."
+msgstr ""
+
+#: Controller/PostsController.php:45
+msgid "Your post has been updated."
+msgstr ""
+
+#: Controller/PostsController.php:48
+msgid "Unable to update your post."
+msgstr ""
+
+#: Controller/PostsController.php:63
+msgid "The post with id: %s has been deleted."
+msgstr ""
+
+#: View/Layouts/default.ctp:45
+msgid "AllSettings"
+msgstr ""
+
+#: View/Errors/error400.ctp:21
+#: View/Errors/error500.ctp:21
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error400.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Layouts/default.ctp:19
+msgid "CakePHP: the rapid dasdasdevelopment php framework"
+msgstr ""
+
+#: View/Layouts/defaultBack.ctp:19
+#: View/Layouts/error.ctp:19
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: webroot/test.php:93
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
