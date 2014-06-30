@@ -53,7 +53,7 @@ $pageName = __("medicalOffice","medical Office") ;
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-							<?php echo $this->Html->link(__("Add Patient"), array('controller' => 'users', 'action' => 'logout'));?>
+							<?php echo $this->Html->link(__("Add Patient"), array('controller' => 'patients', 'action' => 'add'));?>
 						</li>
 						
 					</ul>
