@@ -59,13 +59,18 @@ $pageName = __("medicalOffice","medical Office") ;
 					</ul>
 				  	<ul class="nav navbar-nav navbar-right">
 				  		<li>
-							<form class="navbar-form navbar-right" role="search">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="<?php echo __("Search Patient") ?>">
-								</div>
-								<button type="submit" class="btn btn-default">Submit</button>
-							</form>
-						</li>
+				  			<?php echo $this->Form->create('Patient',array('action' => 'search', "class" => "navbar-form navbar-right")); ?>
+							<div class="form-group">
+							        <?php echo $this->Form->input(	'search',array(
+								        							"class"=>"form-control",
+								        							"placeholder"=>__("Search Patient"),
+								        							"label" => false));?>
+							</div>
+							<?php
+
+							echo $this->Form->end(array('label' => 'Submit', 'class' => 'btn btn-default', 'div' => false));
+							?>
+				  		</li>
 						<li>
 							<?php echo $this->Html->link("logout", array('controller' => 'users', 'action' => 'logout'));?>
 						</li>
