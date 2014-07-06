@@ -30,8 +30,8 @@ class PatientsController extends AppController {
 			$this->set('patients', $this->Patient->find('all',array(
 														'conditions' => array(
 																	'OR' => array(
-																		'Patient.firstName LIKE' => "%".$this->request->data["Patient"]["search"]."%",
-																		'Patient.lastName LIKE' => "%".$this->request->data["Patient"]["search"]."%"
+																		'Patient.firstname LIKE' => "%".$this->request->data["Patient"]["search"]."%",
+																		'Patient.lastname LIKE' => "%".$this->request->data["Patient"]["search"]."%"
 																		)
 																	)
 														) ) );

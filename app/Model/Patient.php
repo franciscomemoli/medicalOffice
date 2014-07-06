@@ -1,10 +1,10 @@
 <?php 
 class Patient extends AppModel {
 	public $validate = array(
-		'firstName' => array(
+		'firstname' => array(
 			'rule' => 'notEmpty'
 		),
-		'lastName' => array(
+		'lastname' => array(
 			'rule' => 'notEmpty'
 		),
 		'email' => array(

@@ -1,5 +1,5 @@
 <!-- File: /app/View/Patient/view.ctp -->
-<h1> <?php echo h($patient['Patient']['firstName']); ?> <?php echo h($patient['Patient']['lastName']);?></h1>
+<h1> <?php echo h($patient['Patient']['firstname']); ?> <?php echo h($patient['Patient']['lastname']);?></h1>
 
 <hr>
 <h3 class="col-xs-12">
@@ -31,9 +31,9 @@
 	</div>
 	<div class="form-group row">
 		<div class="col-xs-6">
-			<label><?php echo __("cellPhone")?>: </label>
+			<label><?php echo __("cellphone")?>: </label>
 			<div class="col-xs-12">
-				<?php echo h($patient['Patient']['cellPhone']); ?>
+				<?php echo h($patient['Patient']['cellphone']); ?>
 			</div>
 		</div>
 		<div class="col-xs-6">

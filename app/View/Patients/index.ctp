@@ -6,8 +6,8 @@
     <thead>
         <tr>
             <th>Id</th>
-            <th><?php echo __("firsName") ?></th>
-            <th><?php echo __("lastName") ?></th>
+            <th><?php echo __("firsname") ?></th>
+            <th><?php echo __("lastname") ?></th>
             <th><?php echo __("email") ?></th>
             <th><?php echo __("Created") ?></th>
             <th><?php echo __("Edit") ?></th>
@@ -20,8 +20,8 @@ foreach ($patients as $patient) {
     $onclickView = array("onclick" => $onclickView, "class"=>"rowLink");            
     $var = array(
             array( $patient['Patient']['id'], $onclickView ),
-            array( $patient['Patient']['firstName'], $onclickView ),
-            array( $patient['Patient']['lastName'], $onclickView ),
+            array( $patient['Patient']['firstname'], $onclickView ),
+            array( $patient['Patient']['lastname'], $onclickView ),
             array( $patient['Patient']['email'], $onclickView ),
             array( $patient['Patient']['created'], $onclickView ),
             $this->Html->link(

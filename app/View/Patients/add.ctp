@@ -6,10 +6,10 @@
 <?php echo $this->Form->create('Patient',array("data-toggle"=>"validator")); ?>
 	<div class="form-group row">
 		<div class="col-xs-6">
-			<?php echo $this->Form->input('firstName',array("class"=> "form-control input-lg", "placeholder"=>__("firstName"),"label"=>false)); ?>
+			<?php echo $this->Form->input('firstname',array("class"=> "form-control input-lg", "placeholder"=>__("firstname"),"label"=>false)); ?>
 		</div>
 		<div class="col-xs-6">
-			<?php echo $this->Form->input('lastName',array("class"=> "form-control input-lg", "placeholder"=>__("lastName"),"label"=>false)); ?>
+			<?php echo $this->Form->input('lastname',array("class"=> "form-control input-lg", "placeholder"=>__("lastname"),"label"=>false)); ?>
 		</div>
 	</div>
 
@@ -20,7 +20,7 @@
 	</div>
 	<div class="form-group row">
 		<div class="col-xs-12">
-			<?php echo $this->Form->input('cellPhone',array("class"=> "form-control input-lg", "placeholder"=>__("cellPhone"),"label"=>false)); ?>
+			<?php echo $this->Form->input('cellphone',array("class"=> "form-control input-lg", "placeholder"=>__("cellphone"),"label"=>false)); ?>
 		</div>
 	</div>
 	<div class="form-group row">

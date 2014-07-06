@@ -64,6 +64,16 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Postgres',
 		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'francisco',
+		'password' => 'francisco',
+		'database' => 'medicalOffice',
+		'prefix' => '',
+		//'encoding' => 'utf8',
+	);
+	public $prod = array(
+		'datasource' => 'Database/Postgres',
+		'persistent' => false,
 		'host' => 'ec2-107-20-191-205.compute-1.amazonaws.com',
 		'login' => 'xlhjbxkhbawtzn',
 		'password' => '1_oLsKBn7N_HH9aMrfpwa5bTTp',
@@ -71,7 +81,6 @@ class DATABASE_CONFIG {
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
-
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
