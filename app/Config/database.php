@@ -61,7 +61,7 @@
  */
 class DATABASE_CONFIG {
 
-	public $default = array(
+	public $produ = array(
 		'datasource' => 'Database/Postgres',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -71,7 +71,7 @@ class DATABASE_CONFIG {
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
-	public $prod = array(
+	public $default = array(
 		'datasource' => 'Database/Postgres',
 		'persistent' => false,
 		'host' => 'ec2-107-20-191-205.compute-1.amazonaws.com',
