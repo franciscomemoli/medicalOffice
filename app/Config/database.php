@@ -61,7 +61,7 @@
  */
 class DATABASE_CONFIG {
 
-	public $produ = array(
+	public $default = array(
 		'datasource' => 'Database/Postgres',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -71,16 +71,7 @@ class DATABASE_CONFIG {
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
-	public $default = array(
-		'datasource' => 'Database/Postgres',
-		'persistent' => false,
-		'host' => 'ec2-107-20-191-205.compute-1.amazonaws.com',
-		'login' => 'xlhjbxkhbawtzn',
-		'password' => '1_oLsKBn7N_HH9aMrfpwa5bTTp',
-		'database' => 'd19ve3lm0e1elg',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
+
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,

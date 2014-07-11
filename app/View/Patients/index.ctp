@@ -1,7 +1,7 @@
 <!-- File: /app/View/Patients/index.ctp -->
 
-<h1>All patients</h1>
-
+<h1><?php echo __("All patients") ?> </h1>
+<?php echo $this->Html->link(__("add Patient"), array('controller' => 'patients', 'action' => 'add'));?>
 <table class="table table-hover">
     <thead>
         <tr>

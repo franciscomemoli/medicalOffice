@@ -20,3 +20,7 @@
 .navbar h3{
   color: #fff;
 }
+.navbar-nav>li>a.active {
+text-decoration: underline;
+color: white;
+}

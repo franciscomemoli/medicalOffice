@@ -21,6 +21,7 @@ class PatientsController extends AppController {
 	}
 
 	public function index() {
+			$this->set('actual_page', 'patients:index');
 			$this->set('patients', $this->Patient->find('all'));
 	}
 
