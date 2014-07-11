@@ -52,10 +52,20 @@ $pageName = __("medicalOffice","medical Office") ;
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li>
-							<?php echo $this->Html->link(__("Add Patient"), array('controller' => 'patients', 'action' => 'add'));?>
+						<li> 
+
+							<?php 
+							$active = (isset($actual_page) && $actual_page == "patients:index")? "active" : "";
+							$actual_page;
+							echo $this->Html->link(__("My Patients"), array('controller' => 'patients', 'action' => 'index'),array("class" => $active));?>
 						</li>
-						
+						<li> 
+
+							<?php 
+							$active = (isset($actual_page) && $actual_page == "users:index")? "active" : "";
+							$actual_page;
+							echo $this->Html->link(__("My Users"), array('controller' => 'users', 'action' => 'index'),array("class" => $active));?>
+						</li>
 					</ul>
 				  	<ul class="nav navbar-nav navbar-right">
 				  		<li>

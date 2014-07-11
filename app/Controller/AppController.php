@@ -53,7 +53,7 @@ class AppController extends Controller {
             )
         )
     );
-    //public $helpers = array('Html', 'Form');
+
     public $helpers = array(
         'Session',
         'Html' => array('className' => 'BoostCake.BoostCakeHtml'),

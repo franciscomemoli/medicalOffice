@@ -10,7 +10,7 @@
 
 <?php 
 	echo $this->Html->link(
-    'Edit User',
+    __('Edit User'),
     array('controller' => 'users', 'action' => 'edit',$user['User']['id'])
 ); 
 ?>
