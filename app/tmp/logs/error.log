@@ -1,263 +1,54 @@
-2014-07-01 03:52:23 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 27]
-2014-07-01 03:52:23 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 03:52:42 Error: [NotFoundException] Invalid patient
-Request URL: /medicalOffice/
-Stack Trace:
-#0 [internal function]: PatientsController->index()
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#4 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-07-01 03:53:00 Error: [NotFoundException] Invalid patient
-Request URL: /medicalOffice/
-Stack Trace:
-#0 [internal function]: PatientsController->index()
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#4 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-07-01 03:53:55 Error: [NotFoundException] Invalid patient
-Request URL: /medicalOffice/
-Stack Trace:
-#0 [internal function]: PatientsController->index()
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#4 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-07-01 03:58:28 Error: [NotFoundException] Invalid patient
-Request URL: /medicalOffice/
-Stack Trace:
-#0 [internal function]: PatientsController->index()
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#4 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-07-01 03:58:50 Error: [NotFoundException] Invalid patient
-Request URL: /medicalOffice/
-Stack Trace:
-#0 [internal function]: PatientsController->index()
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#4 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-07-01 04:00:34 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 33]
-2014-07-01 04:00:34 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 04:00:46 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 33]
-2014-07-01 04:00:46 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 04:01:09 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 33]
-2014-07-01 04:01:09 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 04:01:11 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 33]
-2014-07-01 04:01:11 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 04:16:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or AND `Patient`.`lastName` = 'francisco'' at line 1
-Request URL: /medicalOffice/patients/search
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Patient...', Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Patient...', Array, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Patient...', false)
-#4 /opt/lampp/htdocs/medicalOffice/lib/Cake/Model/Model.php(2903): DboSource->read(Object(Patient), Array)
-#5 /opt/lampp/htdocs/medicalOffice/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
-#6 /opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php(34): Model->find('all', Array)
-#7 [internal function]: PatientsController->search()
-#8 /opt/lampp/htdocs/medicalOffice/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
-#9 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#10 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#11 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-01 04:17:08 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY), expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 33]
-2014-07-01 04:17:08 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY), expecting ')'
-Request URL: /medicalOffice/patients/search
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 04:17:42 Error: [MissingActionException] Action PatientsController::patients() could not be found.
+2014-07-11 19:10:48 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
 Exception Attributes: array (
-  'controller' => 'PatientsController',
-  'action' => 'patients',
+  'class' => 'Postgres',
+  'message' => 'SQLSTATE[08006] [7] could not connect to server: Conexión rehusada
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?',
+  'enabled' => true,
 )
-Request URL: /medicalOffice/patients/patients/view/2
+Request URL: /medicaloffice_heroku_localDev/users/login
 Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#2 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-07-01 04:18:11 Error: [MissingActionException] Action PatientsController::patients() could not be found.
+#0 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Datasource/DboSource.php(260): Postgres->connect()
+#1 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(3499): Model->setSource('users')
+#5 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/Helper/FormHelper.php(467): FormHelper->_introspectModel('User', 'fields')
+#8 /opt/lampp/htdocs/medicaloffice_heroku_localDev/app/View/Users/login.ctp(6): FormHelper->create('User')
+#9 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/View.php(935): include('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/View.php(897): View->_evaluate('/opt/lampp/htdo...', Array)
+#11 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/View.php(466): View->_render('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/medicaloffice_heroku_localDev/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-07-11 19:10:54 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
 Exception Attributes: array (
-  'controller' => 'PatientsController',
-  'action' => 'patients',
+  'class' => 'Postgres',
+  'message' => 'SQLSTATE[08006] [7] could not connect to server: Conexión rehusada
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?',
+  'enabled' => true,
 )
-Request URL: /medicalOffice/patients/patients/view/2
+Request URL: /medicaloffice_heroku_localDev/users/login
 Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#2 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-07-01 23:02:37 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 32]
-2014-07-01 23:02:37 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
-Request URL: /medicalOffice/patients/search
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 32)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 32, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 32, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:02:40 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 32]
-2014-07-01 23:02:40 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
-Request URL: /medicalOffice/patients/search
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 32)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 32, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 32, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:02:49 Error: Fatal Error (4): syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 32]
-2014-07-01 23:02:49 Error: [FatalErrorException] syntax error, unexpected ''conditions'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
-Request URL: /medicalOffice/patients/search
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 32)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 32, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 32, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:04:50 Error: Fatal Error (4): syntax error, unexpected 'Patient' (T_STRING), expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/Controller/PatientsController.php, line 35]
-2014-07-01 23:04:50 Error: [FatalErrorException] syntax error, unexpected 'Patient' (T_STRING), expecting ')'
-Request URL: /medicalOffice/patients/search
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 35)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 35, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 35, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:07:37 Error: [MissingActionException] Action PatientsController::patients() could not be found.
-Exception Attributes: array (
-  'controller' => 'PatientsController',
-  'action' => 'patients',
-)
-Request URL: /medicalOffice/patients/patients/view/1
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#2 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-07-01 23:10:07 Error: [MissingActionException] Action PatientsController::<() could not be found.
-Exception Attributes: array (
-  'controller' => 'PatientsController',
-  'action' => '<',
-)
-Request URL: /medicalOffice/patients/%3C?php_echo_WWW_ROOT%3F%3E%2Fpatients%2Fview%2F1=
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /opt/lampp/htdocs/medicalOffice/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest), Object(CakeResponse))
-#2 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-07-01 23:10:47 Error: [MissingControllerException] Controller class WWWROOTController could not be found.
-Exception Attributes: array (
-  'class' => 'WWWROOTController',
-  'plugin' => NULL,
-)
-Request URL: /medicalOffice/WWW_ROOT/patients/view/1
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-07-01 23:11:56 Error: [MissingControllerException] Controller class WWWROOTController could not be found.
-Exception Attributes: array (
-  'class' => 'WWWROOTController',
-  'plugin' => NULL,
-)
-Request URL: /medicalOffice/WWW_ROOT/patients/view/1
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-07-01 23:13:25 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/View/Patients/index.ctp, line 33]
-2014-07-01 23:13:25 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 33, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:14:45 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/View/Patients/index.ctp, line 34]
-2014-07-01 23:14:45 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 34)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 34, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 34, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:15:02 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/opt/lampp/htdocs/medicalOffice/app/View/Patients/index.ctp, line 34]
-2014-07-01 23:15:02 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
-Request URL: /medicalOffice/
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 34)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 34, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 34, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-01 23:29:33 Error: Fatal Error (1): Call to undefined function php__() in [/opt/lampp/htdocs/medicalOffice/app/View/Patients/view.ctp, line 14]
-2014-07-01 23:29:33 Error: [FatalErrorException] Call to undefined function php__()
-Request URL: /medicalOffice/patients/view/1
-Stack Trace:
-#0 /opt/lampp/htdocs/medicalOffice/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 14)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 14, Array)
-#2 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 14, Array)
-#3 /opt/lampp/htdocs/medicalOffice/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
+#0 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Datasource/DboSource.php(260): Postgres->connect()
+#1 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(3499): Model->setSource('users')
+#5 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/Helper/FormHelper.php(467): FormHelper->_introspectModel('User', 'fields')
+#8 /opt/lampp/htdocs/medicaloffice_heroku_localDev/app/View/Users/login.ctp(6): FormHelper->create('User')
+#9 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/View.php(935): include('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/View.php(897): View->_evaluate('/opt/lampp/htdo...', Array)
+#11 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/View/View.php(466): View->_render('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /opt/lampp/htdocs/medicaloffice_heroku_localDev/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/medicaloffice_heroku_localDev/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
